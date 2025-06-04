@@ -52,3 +52,17 @@ body{
 .add-section{
   color: #CBCDCF;
 }
+/********  task ************/
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+li{
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.check{
+  color: #84c6b2;
+}
