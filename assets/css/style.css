@@ -116,6 +116,11 @@ li{
   margin: 4px;
   vertical-align: middle;
 }
+.arrow{
+  display: inline-block;
+  margin-bottom: 5px;
+  
+}
 /********  etichette ************/
 .editorial{
   background-color: #45A9E8
