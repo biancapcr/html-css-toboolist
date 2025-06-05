@@ -8,7 +8,7 @@
 /********  header e body ************/
 header{
   background-color: white;
-  padding: 20px 20px;
+  padding: 10px 20px;
 }
 body{
   background:#F6F8FA;
@@ -30,9 +30,8 @@ body{
   padding: 20px 30px;
   width: 90%;
   max-width: 700px;
-  border-radius: 10px;
+  border-radius: 5%;
 }
-
 /********  bottoni ************/
 .controls{
   margin-bottom: 40px;
@@ -40,7 +39,7 @@ body{
   margin-top: none;
   display: flex;
   align-items: center;
-  border-bottom: 3px solid #F6F8FA;
+  border-bottom: 2px solid #F6F8FA;
   gap: 3px;
 }
 .add-task, .add-section{
@@ -98,16 +97,29 @@ li{
   color: #cd9790;
   font-weight: bold;
   border: 2px solid #cd9790;
-
 }
 /********  lista ************/
 .task{
   list-style-type: none;
   padding: 0;
 }
+.badge{
+  color: white;
+  background-color: grey;
+  display: inline-block;
+  padding: 6px 13px;
+  border-radius: 20px;
+  font-size: .7rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 1;
+  margin: 4px;
+  vertical-align: middle;
+}
 /********  etichette ************/
 .editorial{
   background-color: #45A9E8
+
 }
 .goals{
   background-color: #9C72E5;
